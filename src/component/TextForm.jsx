@@ -24,7 +24,9 @@ const handleclearClick=()=>{
 // copy function
 
  const handleCopy = () => {
-      navigator.clipboard.writeText(text);
+  var text = document.getElementById('mybox')
+  text.select();
+      navigator.clipboard.writeText(text.value);
   } 
 const handleOnChange=(event)=>{
   setText(event.target.value);
