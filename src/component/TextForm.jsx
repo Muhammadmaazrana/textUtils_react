@@ -38,9 +38,9 @@ const handleOnChange=(event)=>{
       <div className="form-floating">
   <textarea className="form-control h-100"  value={text} onChange={handleOnChange} id="mybox"  ></textarea>
 </div><br />
-<button className="btn btn-primary mx-2" onClick={handleUpClick}>convert to Uppercase</button>
+<button className="btn btn-primary mx-2" onClick={handleUpClick}>convert to Uppercase</button><br /><br />
 <button className="btn btn-primary" onClick={handlelowClick}>convert to Lowercase</button>
-  <button className="btn btn-primary mx-2 my-2" onClick={handleCopy}>Copy Text</button>
+  <button className="btn btn-primary mx-2 my-2" onClick={handleCopy}>Copy Text</button><br />
   <button className="btn btn-danger mx-2 my-2" onClick={handleclearClick}>Clear Text</button>
            
     </div>
